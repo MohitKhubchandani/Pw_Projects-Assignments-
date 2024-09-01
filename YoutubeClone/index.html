@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 h-screen flex flex-col"> 
+
+    <nav class="bg-white shadow p-4 flex-none"> 
+        <div class="container mx-auto flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <div class="font-bold text-red-600">YouTube</div>
+                <input type="text" placeholder="Search" class="px-4 py-2 border rounded-full flex-grow"> 
+            </div>
+        </div>
+    </nav>
+
+    <div class="bg-white shadow p-2 flex-none"> 
+        <div class="container mx-auto flex space-x-4 overflow-x-auto">
+            <button class="px-4 py-2 bg-gray-200 rounded-full">All</button>
+            <button class="px-4 py-2">JavaScript</button>
+            <button class="px-4 py-2">Job interviews</button>
+            <button class="px-4 py-2">Tests</button>
+            <button class="px-4 py-2">Data Structures</button>
+            <button class="px-4 py-2">AI</button>
+            <button class="px-4 py-2">Git</button>
+            <button class="px-4 py-2">Sales</button>
+            <button class="px-4 py-2">Civil Services Exams</button>
+            <button class="px-4 py-2">Live</button>
+            <button class="px-4 py-2">Universities</button>
+            <button class="px-4 py-2">History</button>
+            <button class="px-4 py-2">Coding</button>
+        </div>
+    </div>
+
+    <div class="container mx-auto py-6 flex-grow overflow-y-auto"> 
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div class="bg-white rounded-lg shadow">
+                <img src='./assets/msc.png' alt="Video Thumbnail" class="w-full rounded-t-lg">
+                <div class="p-4">
+                    <h2 class="font-bold text-lg">Weekend M.Tech in Data Science</h2>
+                    <p class="text-gray-600">PES University</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow">
+                <img src="./assets/loveBabbar.png" alt="Video Thumbnail" class="w-full rounded-t-lg">
+                <div class="p-4">
+                    <h2 class="font-bold text-lg">How Interview Process is Shifting...</h2>
+                    <p class="text-gray-600">Love Babbar</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow">
+                <img src="./assets/fullStack.png" alt="Video Thumbnail" class="w-full rounded-t-lg">
+                <div class="p-4">
+                    <h2 class="font-bold text-lg">Fullstack Airbnb Clone with Next.js</h2>
+                    <p class="text-gray-600">Code with Antonio</p>
+                </div>
+            </div>
+
+            </div>
+    </div>
+
+</body>
+</html>
