@@ -1,0 +1,5 @@
+The <!DOCTYPE> declaration in HTML is used to define the version of HTML that the document is using. It helps the browser to understand how to render the document correctly. Although it doesn’t directly impact the content, it ensures that the browser interprets the page in the proper mode (usually standards mode, avoiding quirks mode).
+
+Example of a DOCTYPE declaration for HTML5:
+
+<!DOCTYPE html>

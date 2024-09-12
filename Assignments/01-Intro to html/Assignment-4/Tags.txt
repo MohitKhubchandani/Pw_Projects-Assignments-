@@ -1,0 +1,13 @@
+Tags and Elements in HTML
+
+Tag: A tag is a piece of code in HTML that is used to define elements on a webpage. Tags are enclosed within angle brackets <>. For example, <p> is the opening paragraph tag, and </p> is the closing paragraph tag.
+
+Element: An element refers to the combination of a tag, its attributes (if any), and the content between the opening and closing tags.
+
+Example:
+<p>This is a paragraph element.</p>
+In this case:
+
+<p> is the opening tag.
+This is a paragraph element. is the content.
+</p> is the closing tag. Together, these form an HTML element.

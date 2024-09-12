@@ -1,0 +1,8 @@
+Comments
+
+The purpose of comments in HTML is to add notes or explanations in the code without displaying them on the webpage. Comments help developers understand the code better or leave instructions for future development. They are not visible in the browser and do not affect the output of the page.
+
+Example of using comments in HTML:
+
+<!-- This is a comment. -->
+<p>This is a visible paragraph.</p>
