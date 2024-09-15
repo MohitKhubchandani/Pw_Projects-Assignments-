@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Features</title>
+</head>
+<body>
+    <header>
+        <h1>Key Features of HTML5</h1>
+    </header>
+    <main>
+        <section>
+            <h2>1. Multimedia Support</h2>
+            <p>HTML5 provides native support for audio and video elements, allowing easy embedding of media without the need for third-party plugins.</p>
+            <video controls>
+                <source src="sample.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section>
+            <h2>2. Canvas for Drawing</h2>
+            <p>The <code>&lt;canvas&gt;</code> element allows developers to draw 2D graphics directly in the browser using JavaScript.</p>
+            <canvas id="myCanvas" width="200" height="100" style="border:1px solid black;"></canvas>
+            <script>
+                var canvas = document.getElementById('myCanvas');
+                var ctx = canvas.getContext('2d');
+                ctx.fillStyle = 'blue';
+                ctx.fillRect(20, 20, 150, 50);
+            </script>
+        </section>
+
+        <section>
+            <h2>3. Geolocation API</h2>
+            <p>HTML5 introduces the Geolocation API, allowing websites to access and display the user's geographical location with their consent.</p>
+            <button onclick="getLocation()">Show My Location</button>
+            <p id="location"></p>
+
+            <script>
+                function getLocation() {
+                    if (navigator.geolocation) {
+                        navigator.geolocation.getCurrentPosition(showPosition);
+                    } else {
+                        document.getElementById("location").innerHTML = "Geolocation is not supported by this browser.";
+                    }
+                }
+                function showPosition(position) {
+                    document.getElementById("location").innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude;
+                }
+            </script>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 HTML5 Features Webpage</p>
+    </footer>
+</body>
+</html>

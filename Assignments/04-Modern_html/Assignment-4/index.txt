@@ -1,0 +1,4 @@
+List any 3 ways to improve accessibility in HTML:
+Use Semantic HTML: Tags like <header>, <main>, and <footer> provide structure and meaning, improving screen reader navigation.
+Alt Text for Images: Include descriptive alt text in <img> tags for visually impaired users.
+Keyboard Accessibility: Ensure all interactive elements (links, buttons) are keyboard navigable using tabindex and focus management.

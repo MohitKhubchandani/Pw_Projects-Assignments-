@@ -1,0 +1,8 @@
+List out the features of HTML6
+HTML6 is still a concept and hasn't been officially defined, but potential features speculated include:
+
+Enhanced multimedia support (improvements over HTML5 audio/video features).
+Built-in support for more complex layouts, reducing reliance on JavaScript frameworks.
+Improved support for cloud-based apps and APIs.
+Better integration with AI and machine learning models.
+Advanced performance optimizations for mobile-first experiences.
